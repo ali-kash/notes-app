@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"homepage": "http://ali-kash.github.io/notes-app",
-	"description": "A collection of different Webpack setups for quick referencing or starting from",
+	"description": "Notes application using React, search through your notes, saves to localstorage, also has a 'dark mode'",
 	"scripts": {
 		"start": "cross-env SERVE=true webpack serve",
 		"watch": "webpack --watch",
@@ -11,7 +11,7 @@
 		"build-dev": "webpack",
 		"clean": "rm -rf ./dist",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+		"deploy": "gh-pages -d dist",
 		"serve": "npm run build && serve dist"
 	},
 	"author": "Jimmy DC",
