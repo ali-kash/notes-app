@@ -1,5 +1,5 @@
 .search {
-	padding: 4em 0;
+	padding: 2em 0;
 	&__bar {
 		display: flex;
 		align-items: center;
@@ -15,6 +15,18 @@
 			color: white;
 			&:focus {
 				outline: none;
+			}
+		}
+	}
+}
+
+.darkMode {
+	.search {
+		&__bar {
+			background-color: #f1faee;
+			color: black;
+			input {
+				color: black;
 			}
 		}
 	}

@@ -22,6 +22,20 @@
 	padding-right: 1rem;
 }
 
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 2rem;
+}
+
+.darkMode {
+	background-color: black;
+	h1 {
+		color: white;
+	}
+}
+
 textarea {
 	resize: none;
 	&:focus {
