@@ -11,6 +11,7 @@
 	border-radius: 10px;
 	padding: 1rem;
 	min-height: 170px;
+	white-space: pre-wrap;
 
 	&__footer {
 		display: flex;
@@ -48,4 +49,8 @@
 	&.new {
 		background-color: $grey;
 	}
+}
+
+.delete-icon {
+	cursor: pointer;
 }
