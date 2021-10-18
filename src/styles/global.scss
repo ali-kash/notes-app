@@ -1,0 +1,42 @@
+@import './variables';
+@import './notes';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app {
+	width: 100vw;
+	height: 100vh;
+	background-color: $bg;
+}
+
+.container {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+textarea {
+	resize: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+.save {
+	background-color: $darkBlue;
+	border: none;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding: 5px 10px;
+	color: white;
+	&:hover {
+		background: rgba($darkBlue, 0.85);
+		cursor: pointer;
+	}
+}
